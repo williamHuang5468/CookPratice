@@ -29,4 +29,4 @@ filename = 'hello.txt'
 filename[-4:] == '.txt'
 
 website = 'http://www.google.com'
-url[:5] == 'http:' or url[:6] == 'https:' or url[:4] == 'ftp:'
+website[:5] == 'http:' or url[:6] == 'https:' or url[:4] == 'ftp:'
