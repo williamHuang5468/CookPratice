@@ -10,7 +10,7 @@ startswith() or endswith
 date:2014 05 23
 author:william
 '''
-
+print "zxcvasdfsadf"
 filename = 'hello.txt'
 filename.endswith('.txt')
 filename.startswith('hello')
