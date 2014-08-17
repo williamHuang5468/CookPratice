@@ -11,12 +11,13 @@ date:2014 05 23
 author:william
 '''
 
+print "this is first class"
 filename = 'hello.txt'
 filename.endswith('.txt')
 filename.startswith('hello')
 filename.startswith('asdf')
-url = 'www.google.com'
-url.startswith('http:')
+asdf = 'www.google.com'
+asdf.startswith('http:')
 
 # if you want check mutiple string
 filenames = 'hello.txt','first.py','second.c', 'QQ.py'
@@ -28,5 +29,5 @@ for name in filenames:
 filename = 'hello.txt'
 filename[-4:] == '.txt'
 
-url = 'http://www.google.com'
+asdf = 'http://www.google.com'
 url[:5] == 'http:' or url[:6] == 'https:' or url[:4] == 'ftp:'
