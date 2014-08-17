@@ -15,8 +15,8 @@ filename = 'hello.txt'
 filename.endswith('.txt')
 filename.startswith('hello')
 filename.startswith('asdf')
-url = 'www.google.com'
-url.startswith('http:')
+website = 'www.google.com'
+website.startswith('http:')
 
 # if you want check mutiple string
 filenames = 'hello.txt','first.py','second.c', 'QQ.py'
@@ -28,5 +28,5 @@ for name in filenames:
 filename = 'hello.txt'
 filename[-4:] == '.txt'
 
-url = 'http://www.google.com'
+website = 'http://www.google.com'
 url[:5] == 'http:' or url[:6] == 'https:' or url[:4] == 'ftp:'
